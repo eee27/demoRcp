@@ -35,12 +35,24 @@
          <view
                id="demorcp.view3"
                minimized="false"
-               ratio="0.4"
+               ratio="1"
                relationship="bottom"
                relative="org.eclipse.ui.editorss"
                visible="true">
          </view>
       </perspectiveExtension>
+   </extension>
+   <extension
+         id="product"
+         point="org.eclipse.core.runtime.products">
+      <product
+            application="demorcp.application"
+            name="demorcp">
+         <property
+               name="appName"
+               value="demorcp">
+         </property>
+      </product>
    </extension>
 
 </plugin>
