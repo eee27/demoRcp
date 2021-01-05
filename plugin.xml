@@ -22,7 +22,7 @@
    <extension
          point="org.eclipse.ui.views">
       <view
-            class="demorcp.HelloWorldView"
+            class="demorcp.views.HelloWorldView"
             id="demorcp.view3"
             name="Hello World"
             restorable="true">
@@ -35,8 +35,8 @@
          <view
                id="demorcp.view3"
                minimized="false"
-               ratio="1"
-               relationship="bottom"
+               ratio="0.5"
+               relationship="left"
                relative="org.eclipse.ui.editorss"
                visible="true">
          </view>

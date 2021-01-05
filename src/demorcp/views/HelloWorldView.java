@@ -1,4 +1,4 @@
-package demorcp;
+package demorcp.views;
 
 import org.eclipse.swt.SWT;
 import org.eclipse.swt.widgets.Composite;
