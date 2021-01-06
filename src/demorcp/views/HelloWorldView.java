@@ -10,6 +10,8 @@ import org.eclipse.swt.widgets.Button;
 public class HelloWorldView extends ViewPart {
 	private Text text;
 	private Text text_1;
+	
+	public static final String ID="demorcp.views.HelloWorldView";
 	public HelloWorldView() {
 	}
 
